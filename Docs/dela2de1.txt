@@ -1,0 +1,401 @@
+*********
+
+Welcome to International Project 64!
+
+The goal of International Project 64 is to preserve non-English Commodore 64
+related documents in electronic text format that might otherwise cease to
+exist with the rapid advancement of computer technology and declining
+interest in 8-bit computers on the part of the general population. If you
+would like to help by converting C64 related hardcopy documents to
+electronic texts please contact the manager of International Project 64,
+Peter Karlsson, at pk@abc.se.
+
+Extensive efforts were made to preserve the contents of the original
+document. However, certain portions, such as diagrams, program listings, and
+indexes may have been either altered or sacrificed due to the limitations of
+plain vanilla text. Diagrams may have been eliminated where ASCII-art was
+not feasible. Program listings may be missing display codes where
+substitutions were not possible. Tables of contents and indexes may have
+been changed from page number references to section number references.
+Please accept our apologies for these limitations, alterations, and possible
+omissions.
+
+Document names are limited to the 8.3 file convention of DOS. The first
+characters of the file name are an abbreviation of the original document
+name and the language of the etext. The version number of the etext follows
+next. After that a letter may appear to indicate the particular source of
+the document. Finally, the document is given a
+.TXT extension.
+
+The author(s) of the original document and members of International Project
+64 make no representations about the accuracy or suitability of this
+material for any purpose. This etext is provided "as-is". Please refer to
+the warranty of the original document, if any, that may included in this
+etext. No other warranties, express or implied, are made to you as to the
+etext or any medium it may be on. Neither the author(s) nor the members of
+International Project 64 will assume liability for damages either from the
+direct or indirect use of this etext or from the distribution of or
+modification to this etext. Therefore if you read this document or use the
+information herein you do so at your own risk.
+
+*********
+
+The International Project 64 etext of the Dela Eprommer II manual, converted
+to text by Daniel Krug <d.krug@tu-bs.de>
+
+DELA2DE1.TXT, May 1998, etext #29.
+
+Note from the etexter (in German):
+
+Dieses Dokument wurde gescannt von Daniel Krug <d.krug@tu-bs.de>.
+Original von Marc-Jano Knopp <mjk@c64.org>.
+
+*********
+
+Bedienungsanleitung DELA - EPROMMER II
+
+ACHTUNG! Lesen Sie sich diese Anleitung bitte sorgfaeltig durch, bevor Sie
+den EPROMMER installieren!
+
+Allgemeines: Mit dem DELA-EPROMMER haben Sie ein Programmiergeraet erworben,
+das in seiner Preisklasse und seinen Leistungen unuebertroffen ist. Durch
+die hohe Programmiergeschwindigkeit und den besonderen Komfort ist dieses
+Geraet ebenso fuer den Anfaenger als auch fuer den Profi geeignet.
+
+Ein wenig ueber EPROMs: Was sind EPROMs? EPROMs sind Festwertspeicher, die
+ihren Inhalt ueber laengere Zeit ohne Fremdspannungsversorgung behalten
+koennen. Ein EPROM wird durch Anlegen einer bestimmten Spannung "gebrannt".
+Das bedeutet, sofort nach dem Anlegen der Programierspannung beginnt
+innerhalb des EPROMs ein Entladevorgang, auf den wir hier jedoch nicht
+weiter eingehen wollen, da es den Rahmen dieser Anleitung sprengen wuerde.
+
+Nun, wie schon erwaehnt, sind EPROMs also Festwertspeicher. Wenn Sie schon
+einmal Ihren Computer geoeffnet haben, haben Sie bestimmt auch unterhalb des
+Kassettenports drei 24 polige ICs bemerkt. Dies sind im Prinzip auch EPROMs,
+werden aber PROMs genannt, weil sie sich nicht mehr loeschen lassen. EPROMs
+dagegen koennen wieder geloescht werden. Dazu dient das kleine Fenster in
+der Mitte des EPROMs. Wird dieses Fenster mit ultraviolettem Licht
+bestrahlt, verliert das EPROM nach ein paar Minuten seinen Inhallt. Beim
+Loeschen wird ein Ladevorgang in Gang gesetzt.
+
+Stellen Sie sich das Programmieren einmal folgendermassen vor: Nachdem eine
+Spannung angelegt wird, tritt der oben erwaehnte Vorgang in Kraft. Nehmen
+wir an, ein EPROM hat viele kleine Schachteln mit je einer Tuer. Bei einem
+leeren EPROM ist diese Schachtel mit einer Ladung gefuellt. Wird nun die
+Programmierspannung angelegt, oeffnen sich die Tueren und die Ladung kann
+heraus. Wird die Spannung unterbrochen, schliessen sich die Tueren sofort
+wieder. Wird nun das kleine Fenster mit UV-Licht bestrahlt, oeffnen sich die
+Tueren wieder und die Schachteln fuellen sich wieder mit einer Ladung. So
+aehnlich sollten Sie sich den Vorgang des Brennens und des Loeschens
+vorstellen.
+
+Bei einem PROM koennen die Daten zwar rein, jedoch durch das Fehlen des
+Loeschfensters nicht wieder heraus. Deshalb auch die Bezeichnung PROM
+(Programable Read Only Momory - Programmierbarer nur Lesespeicher).
+
+EPROMs sind sehr empfindlich gegen statische Spannungen. Achten Sie deshalb
+darauf, dass Sie nicht statisch aufgeladen sind. Bei einer statischen
+Entladung koennten sonst leicht 10.000 Volt auf das EPROM ueberspringen. Das
+ist zwar fuer Sie nicht weiter tragisch, aber fuer das EPROM dafuer umso
+mehr. lO.000 Volt hoert sich hoch an, nur hat eine statische Aufladung keine
+grosse Energie. Sie merken nichts weiter als ein leichtes zucken an der
+Stelle, wo die Aufladung austritt. Dies haben Sie sicher schon einmal
+gemerkt, wenn Sie auf einem Kunststoffteppich gegangen sind und
+anschliessend irgendetwas aus Metall angefasst haben.
+
+Brennbare EPROMtypen
+
+Dieser EPROMMER ist fuer eine Programnierung der EPROM Typen 2716 bis 27156
+gedacht. Ebenfalls koennen Sie CMOS-Typen wie 27CXXX brennen. EEPROMs
+koennen gebrannt und elektronisch mit diesem Brenner geloescht werden.
+
+EPROM-Typ	Groesse KB		Bloecke
+
+2716		2 KB 			8 (Diskette 9) 
+2732		4 KB 			16 (Diskette 17) 
+2764		8 KB 			32 (Diskette 33) 
+27128		16 KB 			64 (Diskette 65) 
+27256		32 KB			128 (Diskette 129)
+
+Programmierspannungen: Meistens findet man auf einem EPROM hinter der
+Typenbezeichnung noch eine Bezeichnung (zB. 2764-25). Diese Bezeichnung
+bezieht sich NICHT auf die Programmierspannung, sondern auf die
+Zugriffszeit. Verwechseln Sie also nie die Programmierspannung mit dieser
+Angabe.
+
+Im obigen Beispiel bedeutet die Angabe -25 eine Zugriffszeit von 250
+Nanosekunden. Dies bedeutet, das EPROM kann die gespeicherten Daten in einer
+viertausendstel Sekunde bereitstellen. Hier weiss man konkret was mit dieser
+Angabe anzufangen.
+
+Mit den Programmierspannungen sieht es dagegen schon etwas anders aus.
+Grundsaetzlich kann naemlich nicht gesagt werden, wie hoch die
+Programmierspannung bei den einzelnen EPROMtypen (2764, 27128) sein muss.
+
+Befindet sich auf dem EPROM noch eine weitere Bezeichnung wie zum Beispiel
+"PGM 12,5", duerfte die Programmierspannung klar sein, naemlich 12,5 Volt.
+Steht jedoch nichts dergleichen auf dem EPROM, kann man zur heutigen Zeit
+nicht mehr von einer festen Programmierspannung ausgehen, da immer mehr
+Hersteller dazu uebergehen, EPROMs als 12 Volt Typen auf den Markt zu
+bringen. Bei den meisten Herstellern wird hinter der Typenbezeichnung ein
+"A" fuer 12,5 Volt gewaehlt (z.B. 2764 A). Haben Sie keinerlei Unterlagen
+oder Datenblaetter (bekommen Sie beim Hersteller) ueber EPROMs, brennen Sie
+das EPROM erst mit 12,5 Volt. Erscheint dann eine Fehlermeldung, starten Sie
+einen zweiten Versuch. Zuvor ueberpruefen Sie jedoch das EPROM, ob es auch
+tatsaechlich leer ist (dazu in der Anleitung zur Software mehr).
+
+Laesst es sich auch dann noch nicht programmieren, kann davon ausgegangen
+werden, dass es sich um einen 21 Volt Typ handelt. Stellen Sie also die PGM
+(PGM oder VPP = Programmierspannung) auf 21 Volt und wiederholen Sie den
+Vorgang. Notfalls fragen Sie den Verkaeufer nach den benoetigten Angaben zum
+EPROM.
+
+Installation des EPROM-Brenners: Achtung! Bevor Sie den EPROMbrenner
+installieren, muss der Rechner und die Floppy ausgeschaltet sein.
+
+Stecken Sie den EPROMbrenner mit den ICs nach oben in den Userport des
+Computers. Der Userport befindet sich, wenn Sie von hinten auf den Computer
+sehen, ganz rechts aussen. Achten Sie darauf, dass der Kipphebel der
+EPROMfassung senkrecht nach oben zeigt.
+
+Schalten Sie nun Ihren Computer und die Diskettenstation wieder ein. Legen
+Sie die Steuersoftware ins Laufwerk und laden Sie das erste Programm, das
+sich auf Diskette befindet.
+
+Nachdem das Programm geladen ist, starten Sie es mit RUN. Die Steuersoftware
+belegt den Bereich $AOOO bis $CFFF. Nach dem Start steht der Bereich von
+$0801 bis $9FFF (dorthin haben Sie Steuersoftware geladen) wieder zur
+Verfuegung. Sollte aus unersichtlichen Gruenden die Software oder der
+Computer einmal abstuerzen, koennen Sie das Programm wieder mit SYS 49152
+starten. Dabei gelangen Sie in einen Monitor, auf den wir gleich noch zu
+sprechen kommen. Geben Sie einfach "x" ein, und Sie gelangen wieder in die
+Steuersoftware.
+
+- ACHTUNG: Stellen Sie niemals ein EPROM in den EPROMmer, bevor sie die
+Software gestartet haben.
+
+Die Steuersoftware: Bevor Sie im Hauptmenue irgendeinen Punkt anwaehlen,
+sollten Sie ein EPROM in den Texttool-Sockel einlegen und den Kipphebel
+umlegen. Das EPROM muss linksbuendig und mit der Kerbe nach links, also
+Richtung Hebel, in den Texttool-Sockel eingelegt werden.
+
+Funktion 1: Der Leertest
+
+Mit dem Leertest koennen Sie ueberpruefen, ob ein neues oder geloeschtes
+EPROM fuer eine Programmierung auch tatsaechlich leer ist. Sollte dies nicht
+der Fall sein, loeschen Sie es noch einmal mit einer EPROM Loeschlampe. Was
+das nun wieder ist, erfahren Sie weiter unten.
+
+Dieser Test sagt nichts ueber die Programmierbarkeit der zu testenden
+EPROMs, sondern nur ueber deren Inhalt etwas aus. Sollten sich EPROMs die
+als leer erkannt werden, absolut nicht brennen lassen, fuehren Sie den
+Leertest einmal ohne EPROM aus. Erscheint auch dann eine Fehlermeldung,
+liegt wahrscheinlich ein Fehler am EPROMbrenner oder Ihrem Computer vor.
+Sind Sie sich jedoch nicht sicher, ueberpruefen Sie den Brenner einmal bei
+einem Bekannten. Kommen Sie dort zum gleichen Ergebnis und haben Sie keinen
+Bedienungsfehler gemacht, sollten Sie uns den Brenner schnellstens zur
+Ueberpruefung zuschicken und auf keinen Fall selbst versuchen, ihn im Falle
+eines Defektes selbst zu reparieren.
+
+Funktion 2: EPROM auslesen
+
+Mit dieser Funktion koennen Sie ein EPROM auslesen. Das heisst, dessen
+Inhalt wird in den Speicher des Computers eingelesen. Das ist dann sinnvoll,
+wenn Sie sich EPROMprogramme von einem Bekannten ebenfalls brennen moechten,
+jedoch nicht mehr die Software haben. So koennen Sie sich einfach das EPROM
+auslesen und auf Diskette speichern.
+
+Nachdem Sie also diese Funktion angewaehlt und zuvor das auszulesende EPROM
+in den Texttool Sockel eingelegt haben, werden Sie nach der Anfangsadresse
+im Speicher gefragt. Das ist die Adresse, ab der die Steuersoftware den
+Inhalt des EPROMs ablegen soll. Dabei ist zu beachten, dass Sie nicht eine
+zu hohe Adresse waehlen, da es sonst leicht passieren kann, dass der
+EPROMinhalt die Steuersoftware ueberschreibt. Am besten geben Sie immer als
+Anfangsadresse $1000 an. Das ist 4096 dezimal.
+
+Nachdem das EPROM ausgelesen ist, werden Sie gefragt, ob der Inhalt auf
+Diskette gespeichert werden soll. Hier muessen Sie, wenn Sie mit JA
+geantwortet haben, noch einen Programmnamen fuer den EPROMinhalt angeben.
+Anschliessend beginnt das Laufwerk mit der Speicherung der Daten.
+
+Das Speichern des EPROMs auf Diskette ist dann sinnvoll, wenn Sie die Daten
+nicht sofort auf ein neues EPROM brennen moechten, sondern spaeter einmal
+verwenden wollen.
+
+Funktion 3: EPROM programmieren
+
+Mit dieser Funktion koennen Sie ein EPROM programmieren. Was das ist, haben
+Sie schon weiter oben erfahren. Sie werden hier nach dem EPROMtyp gefragt.
+Hier waehlen Sie den Typ des EPROMs den sie zum Programmieren eingelegt
+haben (Bezeichnung steht auf dem EPROM selbst, 2764, 27128 ...).
+Anschliessend erscheint ein Bildschirm, auf dem Sie die Programmierung des
+EPROMs eingeben muessen. Dabei stehen am unteren Bildschinnrand drei
+moegliche Spannungen, die Sie mit einer beliebigen Taste (ausser der RETURN
+- Taste) auswaehlen koennen (Achten Sie auf die richtige Spannung). Die
+revers dargestellte Zahl ist dabei die aktuelle Programmierspannung.
+
+Nach druecken der RETURN-Taste wird die eingestellte Spannung uebernommen.
+
+Es erscheint anschliessend ein Menue, in dem Sie den Programmiermodus
+einstellen muessen. Dort haben Sie wieder mehrere Moeglichkeiten.
+
+0 - Normalmode: Dies bedeutet, das eingelegte EPROM wird mit 50ms/Byte
+gebrannt. Das ist jedoch nur noch bei alten EPROMs und den EPROMtypen 2716
+und 2732 erforderlich. Diese Brenndauer hat einen Vorteil; Sie gewaehrt eine
+lang anhaltende Datensicherheit (bis zu 10 oder mehr Jahren). Nachteilig
+ist, dass die Programmierung sehr lange dauert.
+
+1 - Schnellmode: In diesem Modus wird ein EPROM mit max. 15ms/Byte gebrannt.
+Weiterhin bietet dieser Modus eine Besonderheit, wobei ein EPROM
+wechselseitig programmiert wird. Das bedeutet, jedes Byte wird gebrannt und
+sofort wieder zum Ueberpruefen ausgelesen. Sollte der Inhalt nicht
+uebereinstimmen, wird fuer dieses eine Byte in den Normalmode gesprungen.
+Stimmt auch dann der Inhalt des EPROMs nicht mit dem des Speichers ueberein,
+wird eine Fehlermeldung ausgegeben und der Programmiervorgang abgebrochen.
+Dies gilt auch fuer den Normalmode. Stimmt der Inhalt ueberein, wird das
+Byte noch einmal mit gleicher Brennzeit nachgebrannt. Wie Sie selbst leicht
+erkennen koennen, ist diese Art zu brennen sicherlich schonender als der
+Normalmode. Da bei allen Programmiermodi ein VERIFY (ueberpruefen des
+Inhalts mit dem Speicher) durchgefuehrt wird, koennen Sie sicher sein, dass
+auch tatsaechlich das im EPROM steht, was Sie gebrannt haben moechten.
+
+2 - Einzelprogrammierung: Hier haben Sie die Moeglichkeit, ein einzelnes
+Byte im EPROM zu programmieren. Die entsprechenden Eingaben werden vom
+Programm gefordert.
+
+3 - Loeschen von EEPROMs: Mit dieser Funktion haben Sie die Moeglichkeit,
+EEPROMs elektonisch zu loeschen. Dabei werden alle Speicherzellen des
+EEPROMs wieder auf $FF (=255) gesetzt.
+
+Die Programmierung
+
+Nachdem Sie also den Programmiermodus gewaehlt haben, erfolgt die Frage nach
+der Anfangsadresse des zu brennenden Programmes im Speicher. Ist die Ihnen
+nicht bekannt, koennen Sie in Menue 2 das Programm mit der Ladefunkton nach
+$1000 laden lassen (alle Adressen sind im Hexadezimal angegeben).
+Anschliessend geben Sie als Anfangsadresse ebenfalls $1000 an.
+
+Danach wird die Endadresse im Speicher verlangt. Wollen Sie ein ganzes EPROM
+programmieren, druecken Sie nur die RETURN - Taste. Ansonsten geben Sie die
+Endadresse des Programms an. Diese koennen Sie, wenn Sie sie nicht kennen,
+durch die Speicherstellen $AE (LowByte) und $AF (HighByte) ermitteln. Wenn
+zum Beispiel in $AE der Wert $OA und in $AF der Wert $50 steht, bekommen wir
+die Adresse $500A. Von diesem Wert muss noch 1 abgezogen werden.
+
+Danach werden Sie nach der Anfangsadresse im EPROM gefragt. Diese Adresse
+steht in keinem Zusammenhang mit den Adressen des Speichers. Soll ein EPROM
+von Anfang an ($0000) gebrannt werden, druecken Sie nur die Taste RETURN.
+Nach der Beantwortung der folgenden Fragen beginnt die Programmierung des
+EPROMs.
+
+Auf dem Bildschirm erscheint ein langer, aus Punkten bestehender Balken.
+Waehrend der Programmierung fuellt sich der Balken immer mehr mit runden
+kleinen Kreisen. Jeder Punkt des Balkens stellt einen Block (256 Byte) dar.
+Ist eine Programmierung nicht moeglich, erscheint die oben erwaehnte
+Fehlermeldung.
+
+Funktion 4: Programmierung wiederholen
+
+Diese Funktion erleichtert Ihnen die Programmierung mehrerer gleicher EPROMs
+oder deren Nachprogrammierung. Haben Sie zum Beispiel gerade ein EPROM
+programmiert und moechten ein weiteres programmieren, brauchen Sie die
+ganzen Angaben wie Anfangsadresse, Endadresse ect. nicht wieder einzugeben,
+sondern brauchen nur diese Funktion zu waehlen. Dabei bleiben die
+angegebenen Werte voll erhalten. Dies funktioniert aber nur dann, wenn Sie
+das gleiche Programm noch einmal auf ein weiteres EPROM brennen moechten.
+
+Funktion 5: Vergleiche EPROM - Speicher
+
+Mit dieser Funktion koennen Sie ein gebranntes EPROM mit dem Speicherinhalt
+vergleichen. Etwa dann, wenn Sie ein EPROM gebrannt haben und es nicht so
+laeuft, wie es sollte. Laden Sie dann einfach das gebrannte Programm noch
+von Diskette und stecken das EPROM in den Texttool-Sockel und waehlen Sie
+dann diesen Menuepunkt an.
+
+Sprung in Menue 2: Hier haben Sie die Moeglichkeit, in ein zweites Menue zu
+springen. Entnehmen Sie aber vorher das EPROM dem Texttool-Sockel!
+
+L - Laden von Programmen
+Mit dieser Funktion koennen Sie ein Programm, das Sie auf EPROM brennen
+moechten, in den Speicher des Computers laden. Dabei koennen Sie zwischen
+der Originaladresse und der Adresse $1000 waehlen. Kennen Sie die
+Originaladresse nicht, waehlen Sie auf jeden Fall immer "NACH
+$1000".
+
+B - BASIC: Mit dieser Funktion beenden Sie die Steuersoftware und kehren
+nach BASIC zurueck.
+
+R - Rueckkehr nach Menue 1: Mit dieser Taste kehren Sie nach Menue 1
+zurueck.
+
+M - Monitor: Durch Anwaehlen dieser Funktion gelangen Sie in einen Monitor.
+Ein Monitor ist zum Manipulieren, Testen und Programmieren von
+Maschinenspracheprogrammen gedacht. Die Ausgaben unseres Monitors koennen
+Sie auch auf den Drucker ausgeben lassen. Dazu verlassen Sie die
+Steuersoftware und geben fogendes ein:
+
+OPEN 1,4: CMD 1: SYS 49152 (RETURN)
+
+Alle Ausgaben, die normalerweise auf dem Bildschrim stattfinden, werden
+jetzt zum Drucker umgeleitet. Wird der Befehl "x" eingegeben, erfolgt immer
+ein Ruecksprung aus dem Monitor ins Steuerprogramm. Folgend nun die
+Monitorbefehle:
+
+$               Umrechnen Hex in Dezimal
+=               Umrechnen Dezimal in Hex
+L LOAD          L "NAME", 08 laedt Programm nach Originaladresse
+S SAVE          S "NAME",08,A-Adr.,E-Adr.+1 speichert Programm ab
+F Fuellen       F 1000 2000 FF- Fuellt den Bereich von 1000 bis 2000 mit dem
+                Wert FF(255)
+M Memorydisplay M 2000 oder M 2000 2 100 - zeigt den Bereich jeweils in
+                Hexadezimal und Dezimal an 
+D Disassemble   D 1000 oder D 1000 1100 - Disassembliert den Bereich ab $1000
+T Transfer      T 1000 2000 4000  Schiebt den Bereich von 1000 bis 2000
+                nach 4000
+G Go            G 1000 - Startet ein Programm ab Adresse 1000 
+H Hunt          H 2000 3000 45 46 47 - Durchsucht den Bereich von 2000 bis
+                3000 nach der nach der Bytefolge 45 46 47
+N Newlocate     N 4000 5000 3000 1000 2000 - Nach dem Verschieben eines
+                Speicherbereichs in einen anderen errechnet diese Funktion
+                die absoluten Sprungadressen um, so dass das Programm
+                anschliessend lauffaehig ist
+
+Der Modulgenerator: Ein Modulgenerator ist ein Programm, mit dem Sie mehrere
+Programme so aufbereiten koennen, dass anschliessend alle Programme in ein
+EPROM gebrannt werden koennen, sofern die Gesamtkapazitaet der Programme
+nicht die des EPROMs ueberschreitet. Der ModuIgenerator generiert Ihnen
+ebenfalls eine Directory ueber die im EPROM befindlichen Programme. Damit
+haben Sie also ein Hilfsmittel, mit dem Sie leicht und komfortabel mehrere
+Programme in ein EPROM brennen koennen.
+
+Wenn Sie vom Menue 2 der Steuersoftware die Taste G druecken, gelangen Sie
+in den Modulgenerator. Dort druecken Sie bitte zuerst die Taste 1. Es
+erscheint ein weiteres Menue mit der Moeglichkeit, die Bedienungsanleitung
+einzusehen. Aus diesem Grund eruebrigt sich hier eine schriftlich
+wiedergegebene Anleitung fuer den Modulgenerator.
+
+Die EPROM-Loeschlampe: Um die von Ihnen hoffentlich richtig gebrannten
+EPROMs auch einmal wieder loeschen zu koennen, gibt es diverse Loeschlampen
+oder Loeschsets, wobei diese Sets einem Bausatz gleichkommen.
+
+Eine Loeschlampe besteht im Prinzip aus einer spezial UV-Lampe mit meistens
+6W Leistung und einer Drosselspule. Durch die ultraviolette Strahlung wird,
+wie schon erwaehnt, ein Vorgang ausgeloest, der das EPROM nach und nach
+wieder loescht. Eine Loeschlampe oder ein Loeschset sollte also unbedingt
+zum Zubehoer jedes Computer-Anwenders gehoeren, da es oefters mal vorkommt,
+dass ein Programm auf Modul nicht so laeuft, wie es laufen sollte. Diese
+Loeschlampen und Loeschsets erhalten Sie ebenfalls in unserem Geschaeft.
+
+Wir hoffen, dass Sie mit Ihrem neu erworbenen DELA EPROM-Brenner zufrieden
+sind und wuerden uns freuen, Sie als festen Kunden in unserem Haus
+begruessen zu koennen.
+
+Copyright 1987 by DELA - Elektronik GmbH
+
+Kundendienst Tel. 02 21 /5170 65
+
+*********
+
+End of the International Project 64 etext of the Dela Eprommer II manual.
+
+*********
