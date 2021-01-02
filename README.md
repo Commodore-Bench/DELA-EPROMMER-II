@@ -57,7 +57,7 @@ Here is the list of components needed. I have chosen the manufacturers as exampl
 
 # PCB
 
-The PCB can either be ordered directly from [PCBWay]https://www.pcbway.com/project/shareproject/DELA_EPROMMER_II.html), or you can create it yourself from the Gerber files available here.
+The PCB can either be ordered directly from [PCBWay](https://www.pcbway.com/project/shareproject/DELA_EPROMMER_II.html), or you can create it yourself from the Gerber files available here.
 
 [![PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/DELA_EPROMMER_II.html)
 
