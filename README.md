@@ -1,6 +1,6 @@
 # DELA EPROMMER II
 
-![](https://github.com/DL2DW/DELA-EPROMMER-II/blob/main/Images/DELA EPROMMER II.jpg)
+![](https://github.com/DL2DW/DELA-EPROMMER-II/blob/main/Images/DELA%20EPROMMER%20II.jpg)
 
 
 
@@ -22,7 +22,7 @@ Even for beginners this board should not make any problems with mounting and sol
 
 The circuit board viewed from above:
 
-![](https://github.com/DL2DW/DELA-EPROMMER-II/blob/main/Images/DELA EPROMMER II 2.jpg)
+![](https://github.com/DL2DW/DELA-EPROMMER-II/blob/main/Images/DELA%20EPROMMER%20II%202.jpg)
 
 
 
