@@ -48,7 +48,7 @@ Here is the list of components needed. I have chosen the manufacturers as exampl
 | 1        | CP3                                   | Panasonic                     | ECA1EHG101                | Capacitor  100 uF 25 VDC, ECA1EHG101, Panasonic Automotive & Industrial Systems |
 | 2        | CP2,  CP4                             | Panasonic                     | ECA-1HHG471               | Capacitor  470 uF 50 VDC, ECA1HHG471, Panasonic Automotive & Industrial Systems |
 | 1        | CP5                                   | Panasonic                     | ECA-1VHG471               | ALUMINUM  ELECTROLYTIC CAPACITOR, 470UF, 35V, 20%, RADIAL; Product Range:NHG Series;  Capacitance:470 F; Capacitance Tolerance: 20%; Voltage Rating:35V;  Diameter:10mm; Capacitor Terminals:Radial Leaded; Packaging:Each; ESR:- ;RoHS  Compliant: Yes |
-| 1        | U6                                    | STMicroelectronics            | L7806CV                   | STMICROELECTRONICS  - L7806CV - LINEAR VOLTAGE REGULATOR 6V TO-220-3 |
+| 1        | U6                                    | STMicroelectronics            | L7805CV                   | STMICROELECTRONICS  - L7806CV - LINEAR VOLTAGE REGULATOR 5V TO-220-3 |
 | 1        | CP1                                   | RND  Components               | RND  150EHR100M16B        | RND  150EHR100M16B - Kondensator, 10µF, 16V, 20%, RND Components |
 | 1        | U4                                    | Texas  Instruments            | SN74LS06N                 | IC  INVERTER OPEN COL 6CH 14DIP                              |
 | 1        | U5                                    | Texas  Instruments            | SN74LS373N                | Latch  Transparent 3-ST 8-CH D-Type 20-Pin PDIP Tube         |
